@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript Snippets</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>JavaScript Code Snippets</h1>
+	</header>
+	<section>
+		<!-- Conditional Statements -->
+ <!--   <script>
+      var luckyNumber = prompt("What is your lucky number?","");
+      luckyNumber = parseInt(luckyNumber);
+          
+      if (isNaN(luckyNumber)) {
+        luckyNumber = prompt("That is not a number. Please tell me your lucky number.","");
+      }
+    
+      if (luckyNumber == 7) {
+        document.write("<p>Hey, 7 is my lucky number too!</p>");
+      } else if (luckyNumber == 13 || luckyNumber == 24) {
+        document.write("<p>Wow! " + luckyNumber + "? That's an unlucky number.</p>");
+      } else {
+        document.write("<p>The number " + luckyNumber + " is lucky for you!</p>");
+      }
+    </script> 
+-->	
+    <!-- Array and Function -->
+  <!-- <script>
+      var imgArray = ["images/image-1.jpg", 
+					  "images/image-2.jpg", 
+					  "images/image-3.jpg", 
+					  "images/image-4.jpg", 
+					  "images/image-5.jpg",
+					  "images/image-6.jpg",
+					  "images/image-7.jpg"]
+	  
+	  function getRandomImage(arrayImg, path) {
+		  var num = Math.floor( Math.random() * arrayImg.length );
+		  var img = arrayImg[num];
+		  var imgStr = '<img src"' + img + '" alt = "">';
+		  document.write(imgStr); document.close();
+	  }
+		
+		getRandomImage(imgArray, "");
+		
+    </script>-->
+    <script>
+		var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+		
+		var counter = 0;
+		while (counter < days.length) {
+			document.write(days[counter] + ", ")
+			counter++;
+		}
+		
+		</script>
+	</section>
+</body>
+</html>
+
+
+
+
+
+

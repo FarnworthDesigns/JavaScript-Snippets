@@ -1,0 +1,30 @@
+
+body {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+header {
+	background-color: #3a5775;
+	padding: 0.5em 0;
+	margin-bottom: 2em;
+	text-align: center;
+	
+	color: #fff;
+}
+
+section {
+	margin: auto;
+	width: 33%;
+	font-size: 150%;
+}
+
+/*
+body {
+  background-color: #000;
+}
+
+section {
+  width: 1200px;
+  margin: -10px auto 0;
+}
+*/
